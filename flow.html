@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flow Field Visualization</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="JS/noise.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.11/paper-full.min.js"></script> -->
+
+    <!-- inline CSS goes here -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: black;
+        }
+        canvas {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <!-- ending of CSS -->
+</head>
+<body>
+    <!--  this is the ID that we use for the canvas -->
+    <div id="MyCanvas"></div>
+    <!-- <canvas id="myCanvas" resize></canvas> -->
+  <!-- <script type="text/paperscript" canvas="myCanvas">
+    // Your paper.js code goes here
+  </script> -->
+    <!-- this is the actual flow field we attach -->
+    <script src="JS/p5Flow.js"></script>
+</body>
+</html>
